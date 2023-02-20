@@ -1,112 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" type="text/css" href="styles/4-common.css">
-    <link rel="stylesheet" type="text/css" href="styles/3-footer.css">
-    <link rel="stylesheet" type="text/css" href="styles/3-header.css">
-    <link rel="stylesheet" type="text/css" href="styles/6-filters.css">
-    <link rel="stylesheet" type="text/css" href="styles/8-places.css">
-    <title>AirBnB clone</title>
-    <link rel="shortcut icon" type="image/png" href="images/icon1.png"/>
-  </head>
-  <body>
-    <header>
-      <div class="logo"></div>
-    </header>
 
-    <div class="container">
-      <section class="filters">
-	<div class="locations">
-	  <h3>States</h3>
-	  <h4>California, Arizona..</h4>
-	  <ul class="popover">
-	    <li>
-	      <h2>Arizona:</h2>
-	      <p>Page</p>
-	      <p>Page2</p>
-	      </li>
-	    <li>
-	      <h2 class="California">California:</h2>
-	      <p>San Francisco</p>
-	      <p>Los Angeles</p>
-	      </li>
-	    </ul>
-	  </div>
-	<div class="amenities">
-	  <h3>Amenities</h3>
-	  <h4>Internet, Kitchen..</h4>
-	  <ul class="popover">
-	    <li>
-	      <p>Internet</p>
-	      <p>TV</p>
-	      <p>Kitchen</p>
-	      <p>Iron</p>
-	      </li>
-	    </ul>
-	  </div>
-	<button>
-	  Search
-	  </button>
-      </section>
-    </div>
+<head>
+	<meta charset="utf-8">
+	<title>AirBnB Clone</title>
 
-    <section class="places">
-      <h1>Places</h1>
+	<link rel="icon" type="image/png" href="images/icon.png" />
+	
+	<link rel="stylesheet" type="text/css" href="styles/4-common.css" />
+	<link rel="stylesheet" type="text/css" href="styles/3-header.css" />
+	<link rel="stylesheet" type="text/css" href="styles/6-filters.css" />
+	<link rel="stylesheet" type="text/css" href="styles/8-places.css" />
+	<link rel="stylesheet" type="text/css" href="styles/3-footer.css" />
+</head>
 
-      <article>
-	<h2>My home</h2>
-	<div class="price_by_night">$10</div>
-	<div class="information">
-	  <div class="max_guest">2 Guests</div>
-	  <div class="number_rooms">1 Bedroom</div>
-	  <div class="number_bathrooms">1 Bathroom</div>
-	  </div>
-	<div class="user"><b>Owner</b>: Bad Bunny</div>
-	<div class="description">
-	  This is a lovely 1 bedroom and 1 bathroom apartment that
-                can accommodate 2 people. It locates at the center of 
-                Shanghai and next to subway line 1,1 stop to People 
-                Square, 2 stops to Bund,  3 stops to Jingan Temple.4
-            </div>
-	</article>
+<body>
+	<header></header>
+	<div class="container">
+		<section class="filters">
+			<div class="locations">
+				<h3>States</h3>
+				<h4>California, Arizona...</h4>
+				<ul class="popover">
+					<li>
+						<h2>Arizona:</h2>
+						<ul>
+							<li>Page</li>
+							<li>Page2</li>
+						</ul>
+					</li>
+					<li>&nbsp;</li>
+					<li>
+						<h2>California:</h2>
+						<ul>
+							<li>San Francisco</li>
+							<li>Los Altos</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="amenities">
+				<h3>Amenities</h3>
+				<h4>Internet, Kitchen...</h4>
+				<ul class="popover">
+					<li>
+						<ul>
+							<li>Internet</li>
+							<li>TV</li>
+							<li>Kitchen</li>
+							<li>Iron</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<button>Search</button>
+		</section>
+		<section class="places">
+			<h1>Places</h1>
+			<article>
+				<h2>My home</h2>
+				<div class="price_by_night">$80</div>
+				<div class="information">
+					<div class="max_guest">2 Guests</div>
+					<div class="number_rooms">1 Bedroom</div>
+					<div class="number_bathrooms">1 Bathroom</div>
+				</div>
+				<div class="user">
+					<strong>Owner:</strong>&nbsp;
+					John Lennon
+				</div>
+				<div class="description">
+					This is a lovely 1 bedroom and 1 bathroom apartment that can accomodate 2 people. It locates at the center of Shanghai and next to subway line 1. 1 stop to People Square, 2 stops to Bund, 3 stops to Jingan Temple.
+				</div>
+			</article>
+			<article>
+				<h2>Tiny house</h2>
+				<div class="price_by_night">$65</div>
+				<div class="information">
+					<div class="max_guest">4 Guests</div>
+					<div class="number_rooms">2 Bedrooms</div>
+					<div class="number_bathrooms">1 Bathroom</div>
+				</div>
+				<div class="user">
+					<strong>Owner:</strong>&nbsp;
+					Adrienne
+				</div>
+				<div class="description">
+					Our place is a private, affordable stand-alone guets house centrally located just minutes to French Quarters, downtown, the Fair Grounds (Jazz Fest) and City Park. The guest house is a quaint, 400 square ft. with a full bath, mini kitchen, & living room. The extra high ceilings make the home feel more spacious. The sofa converts to a bed also. We have a hand made counter area that adds character to the room and a great porch/deck to relax on and have a glass of Merlot.
+				</div>
+			</article>
+			<article>
+				<h2>A suite</h2>
+				<div class="price_by_night">$190</div>
+				<div class="information">
+					<div class="max_guest">6 Guests</div>
+					<div class="number_rooms">3 Bedrooms</div>
+					<div class="number_bathrooms">2 Bathrooms</div>
+				</div>
+				<div class="user">
+					<strong>Owner:</strong>&nbsp;
+					Bill Zuckerberg
+				</div>
+				<div class="description">
+					Newly renovated spacious 2 bedrooms 2 baths in cozy Gastown style unit with the views of North Shore mountains. Woodward’s landmark building situated at the historic heart of Vancouver.
+				</div>
+			</article>
+		</section>
+	</div>
+	<footer>
+		<p>Best School</p>
+	</footer>
+</body>
 
-      <article>
-	<h2>Tiny house</h2>
-	<div class="price_by_night">Free</div>
-	<div class="information">
-	  <div class="max_guest">4 Guests</div>
-	  <div class="number_rooms">2 Bedrooms</div>
-	  <div class="number_bathrooms">1 Bathroom</div>
-	  </div>
-	<div class="user"><b>Owner</b>: Bruce Wayne</div>
-	<div class="description">
-	  This is a fake article for fill this section.
-	  It is the personal residence of Bruce Wayne, who is also the superhero Batman. The residence is depicted as a large mansion on the outskirts of Gotham City and is maintained by the Wayne family's butler, Alfred Pennyworth.
-	  </div>
-	</article>
-
-      <article>
-	<h2>A suite</h2>
-	<div class="price_by_night">$180</div>
-	<div class="information">
-	  <div class="max_guest">10 Guest</div>
-	  <div class="number_rooms">4 Bedrooms</div>
-	  <div class="number_bathrooms">3 Bath</div>
-	  </div>
-	<div class="user"><b>Owner</b>: Bishnu My Friend</div>
-	<div class="description">
-	  This is a premium quality room located in the 
-                most important area of New York. It is close to downtown
-                commerces and has a beatiful sight of central park.
-                You will have all the amenities you desire and will 
-                definitely enjoy a great time. 
-                By yourself, with your lover, or your family, you will
-                feel luxury from top to bottom.
-	  </div>
-	</article>
-
-    </section>
-
-    <footer>Holberton School</footer>
-  </body>
 </html>
